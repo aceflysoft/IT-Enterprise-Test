@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SQLTest</name>
+    </assembly>
+    <members>
+        <member name="T:SQLTest.DataDriver">
+            <summary>
+            Работа с БД
+            </summary>
+        </member>
+        <member name="P:SQLTest.DataDriver.ConnectionString">
+            <summary>
+            Строка соединения с БД
+            </summary>
+        </member>
+        <member name="M:SQLTest.DataDriver.#ctor(SQLTest.Table)">
+            <summary>
+            Конструктор
+            </summary>
+        </member>
+        <member name="M:SQLTest.DataDriver.Dispose">
+            <summary>
+            Очистка
+            </summary>
+        </member>
+        <member name="M:SQLTest.DataDriver.TestConnection">
+            <summary>
+            Проверка соединения
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SQLTest.DataDriver.GetAllTable">
+            <summary>
+            Получим таблицу Table
+            </summary>
+            <returns>DataTable</returns>
+        </member>
+        <member name="M:SQLTest.DataDriver.GetGroupTable(System.Collections.Generic.List{SQLTest.Field})">
+            <summary>
+            Получим таблицу Table
+            </summary>
+            <returns>DataTable</returns>
+        </member>
+        <member name="T:SQLTest.Table">
+            <summary>
+            Класс описи таблицы
+            </summary>
+        </member>
+        <member name="P:SQLTest.Table.TableName">
+            <summary>
+            Имя таблицы
+            </summary>
+        </member>
+        <member name="P:SQLTest.Table.Fields">
+            <summary>
+            Список полей таблицы
+            </summary>
+        </member>
+        <member name="M:SQLTest.Table.#ctor">
+            <summary>
+            Конструктор
+            </summary>
+        </member>
+        <member name="T:SQLTest.Field">
+            <summary>
+            Класс описи поля
+            </summary>
+        </member>
+        <member name="P:SQLTest.Field.Id">
+            <summary>
+            Имя поля
+            </summary>
+        </member>
+        <member name="P:SQLTest.Field.type">
+            <summary>
+            Тип поля
+            </summary>
+        </member>
+        <member name="M:SQLTest.Field.#ctor(System.String)">
+            <summary>
+            Конструктор
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="F:SQLTest.frmMain.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:SQLTest.frmMain.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:SQLTest.frmMain.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:SQLTest.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:SQLTest.SQLConnect">
+            <summary>
+            Класс работы с БД
+            </summary>
+        </member>
+        <member name="P:SQLTest.SQLConnect.ConnectionString">
+            <summary>
+            Строка соединения с БД
+            </summary>
+        </member>
+        <member name="M:SQLTest.SQLConnect.#ctor">
+            <summary>
+            Конструктор
+            </summary>
+        </member>
+        <member name="M:SQLTest.SQLConnect.TestConnection">
+            <summary>
+            Тест соединения
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SQLTest.SQLConnect.ExecuteSql(System.String)">
+            <summary>
+            Выполняет SQL и возвращает DataTable
+            </summary>
+            <param name="sql">sql statement</param>
+            <returns>DataTable</returns>
+        </member>
+        <member name="E:SQLTest.SQLConnect.MessageChanged">
+            <summary>
+            При наступлении события сообщения
+            </summary>
+        </member>
+        <member name="M:SQLTest.SQLConnect.OnMessage(System.String)">
+            <summary>
+            Cобытие сообщения
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:SQLTest.SQLConnect.Dispose">
+            <summary>
+            Очистим память
+            </summary>
+        </member>
+        <member name="T:SQLTest.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:SQLTest.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:SQLTest.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>

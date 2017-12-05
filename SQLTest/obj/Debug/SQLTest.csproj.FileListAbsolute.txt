@@ -1,0 +1,11 @@
+D:\DEVSProjects\ITProf\test\SQLTest\SQLTest\bin\Debug\SQLTest.exe
+D:\DEVSProjects\ITProf\test\SQLTest\SQLTest\bin\Debug\SQLTest.pdb
+D:\DEVSProjects\ITProf\test\SQLTest\SQLTest\obj\Debug\SQLTest.frmMain.resources
+D:\DEVSProjects\ITProf\test\SQLTest\SQLTest\obj\Debug\SQLTest.Properties.Resources.resources
+D:\DEVSProjects\ITProf\test\SQLTest\SQLTest\obj\Debug\SQLTest.csproj.GenerateResource.Cache
+D:\DEVSProjects\ITProf\test\SQLTest\SQLTest\obj\Debug\SQLTest.csproj.CoreCompileInputs.cache
+D:\DEVSProjects\ITProf\test\SQLTest\SQLTest\obj\Debug\SQLTest.exe
+D:\DEVSProjects\ITProf\test\SQLTest\SQLTest\obj\Debug\SQLTest.pdb
+D:\DEVSProjects\ITProf\test\SQLTest\SQLTest\bin\Debug\SQLTest.exe.config
+D:\DEVSProjects\ITProf\test\SQLTest\SQLTest\bin\Debug\SQLTest.xml
+D:\DEVSProjects\ITProf\test\SQLTest\SQLTest\obj\Debug\SQLTest.csprojResolveAssemblyReference.cache
